@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100vw;
+    font-size: 40px;
+    font-family: fantasy;
+    font-size: 60px;
+    color:darkblue
+    
+}
+.middle{
+    display:flex;
+    height:40vh;
+    width: 50wh;
+    font-family: fantasy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    border-style: solid;
+    background-image: url(pastel2.jpeg);
+}
+.color_question {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100vw;
+    flex-grow: 7;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70%;
+    height: 35vh;
+    width: 35vh;
+    border-color: grey;
+    border-width: 500px;
+    position: relative; right:160px;
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 100px;
+    height: 20vh;
+    width: 100vw;
+
+}
+.button {
+    border: solid;
+    border-color: black;
+    border-width: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 10vw;
+    cursor: pointer;
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+
+.bottom {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    border: dashed;
+    justify-content: center;
+    height: 5vh;
+    width: 7vw;
+}
